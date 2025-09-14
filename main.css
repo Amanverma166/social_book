@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'popins', sans-serif;
+    box-sizing: border-box;
 }
 body{
     background: #efefef;
@@ -154,7 +155,7 @@ nav {
     justify-content: space-between;
     margin-bottom: 18px;
 }
-.sidebar-title h4{
+.right-sidebar h4{
     font-weight: 600;
     font-size: 16px;
 }
@@ -163,12 +164,14 @@ nav {
     color: #1876f2;
     font-size: 12px;
 }
-.event{
+.event {
     display: flex;
+    align-items: center;
     font-size: 14px;
     margin-bottom: 20px;
+}
 
-}.left-event{
+.left-event {
     border-radius: 10px;
     height: 65px;
     width: 65px;
@@ -178,4 +181,114 @@ nav {
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
 }
+
+.left-event h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.left-event span {
+    font-size: 12px;
+    color: gray;
+}
+
+.right-event {
+    line-height: 1.4;
+}
+
+.right-event h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.right-event p {
+    margin: 2px 0;
+    color: gray;
+}
+
+.right-event a {
+    font-size: 13px;
+    color: #1876f2;
+    text-decoration: none;
+}
+.event p{
+    font-size: 12px;
+}
+.event a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #1876f2;
+}
+.left-event span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1876f2;
+    color: #fff;
+    font-size: 10px;
+    padding: 4px 0;
+
+}
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.online-lst {
+  display: flex;          /* image + text ek row me */
+  align-items: center;    /* vertical center */
+  margin-bottom: 10px;    /* members ke beech gap */
+}
+
+.online-lst img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;     /* round image */
+  margin-right: 8px;      /* image aur naam ke beech gap */
+}
+
+.online-lst p {
+  margin: 0;              /* default margin hata do */
+  font-size: 14px;
+  color: #333;
+}
+.story-gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20;
+}
+.story{
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-image: linear-gradient(transparent, rgba(0,0,0,00.5)), url(status-1.png) ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+    
+}     
+.story img{
+        position: absolute;
+        width: 45px;
+        border-radius: 50%;
+        top: 10px;
+        left: 10px;
+        border-radius: 5px solid #626262;
+    }          
+    
+    .story p{
+        position : absolute;
+        bottom: 10px;
+        width: 100px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+
+    }
