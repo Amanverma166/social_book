@@ -267,7 +267,7 @@ nav {
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: linear-gradient(transparent, rgba(0,0,0,00.5)), url(status-1.png) ;
+   
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -280,7 +280,7 @@ nav {
         border-radius: 50%;
         top: 10px;
         left: 10px;
-        border-radius: 5px solid #626262;
+        border: 5px solid #1876f2;
     }          
     
     .story p{
@@ -292,3 +292,161 @@ nav {
         font-size: 14px;
 
     }
+    .story1{
+         background-image: linear-gradient(transparent, rgba(0,0,0,00.5)), url(status-1.png) ;
+    }
+    
+    .story2{
+         background-image: linear-gradient(transparent, rgba(0,0,0,00.5)), url(status-2.png) ;
+    }
+    
+    .story3{
+         background-image: linear-gradient(transparent, rgba(0,0,0,00.5)), url(status-3.png) ;
+    }
+    
+    .story4{
+         background-image: linear-gradient(transparent, rgba(0,0,0,00.5)), url(status-4.png) ;
+    }
+    
+    .story5{
+         background-image: linear-gradient(transparent, rgba(0,0,0,00.5)), url(status-5.png) ;
+    }
+    .story.story1 img{
+        top: unset;
+        left: 20%;
+        bottom: 40px;
+        translate: translateX(-50%);
+        border: 0;
+        width: 35px;
+
+    }
+    .write-post-container{
+        width: 100%;
+        background: #fff;
+        border-radius: 6px ;
+        padding: 20px;
+        column-gap: #626262;
+        margin-top: 20px;
+
+    }
+    .user-profile{
+        display: flex;
+        align-items: center;
+
+    }
+    .user-profile img{
+        width: 45px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+     .user-profile p{
+        margin-bottom: -5px;
+        font-weight: 00;
+        color: #000000;
+     }
+     .user-profile small{
+        font-size: 12px;
+        
+     }
+     .post-input-container{
+        padding-left: 55px;
+        padding-top: 20px;
+     }
+     .post-input-container textarea{
+        width: 100px;
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid #ccc;
+        background: transparent;
+         resize: none; 
+
+     }
+     .add-post-links{
+        display: flex;
+        margin-top: 10px;
+
+     }
+     .add-post-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 30px;
+     }
+     .add-post-links img{
+        width: 20px;
+        margin-right: 10px;
+     }
+     .post-container{
+        width: 1005;
+        background: #fff;
+        border-radius: 6px;
+        padding: 20px;
+        color: #626262;
+        margin: 20px 0;
+     }
+     .post-container{
+        width: 100%;
+        background: #fff;
+        border-radius:6px ;
+        padding: 20px;
+        color: #626262;
+        margin: 20px 0;
+         line-height: 1.6;
+
+
+     }.user-profile span {
+   font-size: 13px;
+   color: #9a9a9a;
+}
+
+.post-text {
+   color: #626262 ;
+   margin: 15px 0;
+   font-size: 15px;
+}
+
+p.post-text span {
+   color: #000000 !important;
+   font-weight: 500 !important;
+}
+.post-text a{
+    color: #1876f2;
+    text-decoration: none;
+}
+.post-img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.post-row{
+    display: flex;
+    align-items: center;
+   
+}
+.activity-icons div {
+    display: flex;
+    align-items: center;
+    gap: 30px;    /* icons + number ke groups ke bich gap */
+}
+
+.activity-icons img {
+    margin-right: 6px; /* icon aur number ke bich thoda gap */
+    width: 18px;
+
+}
+
+.post-row {
+  display: flex;
+  justify-content: space-between; /* left & right push */
+  align-items: center;
+}
+
+.post-profile-icon {
+  margin-left: auto; /* push right */
+}
+.post-profile-icon img {
+  width: 20px;
+  border-radius: 50%;
+}
